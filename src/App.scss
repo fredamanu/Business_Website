@@ -1,0 +1,89 @@
+.app {
+  position: relative;
+}
+
+.app__header {
+  background-color: #06283d;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+
+
+  .box {
+  
+    position: absolute;
+    border: none;
+    z-index: 0;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+    background: linear-gradient(
+      170deg,
+      #06283d 0,
+      #06283d calc(48.5% - 2px),
+      #37ecba 48.5%,
+      #37ecba 51%,
+      #e8f6ff calc(51% + 2px),
+      #e8f6ff 100%
+    );
+  }
+
+}
+
+.app__reports {
+  margin-top: 120px;
+  width: 100%;
+  background-color: rgba(232, 246, 255, 1);
+}
+
+.app__cust {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.app__dash {
+  width: 100%;
+  margin: 120px 0;
+}
+
+.app__pricing {
+  position: relative;
+  background-color: #06283d;
+  .box {
+    border: none;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+      170deg,
+      #e8f6ff 0,
+      #e8f6ff calc(48.5% - 2px),
+      #37ecba 48.5%,
+      #37ecba 51%,
+      #06283d calc(51% + 2px),
+      #06283d 100%
+    );
+  }
+}
+
+.app__footer{
+  background-color: #06283d;
+}
+
+@media screen and (max-width: 900px) {
+  .app__feature {
+    margin-top: -150px;
+  }
+  .app__pricing{
+    .box{
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__pricing {
+    .box {
+      height: 90px;
+    }
+  }
+}

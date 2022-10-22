@@ -10,36 +10,37 @@ import {
   Pricing,
   Footer,
 } from "./components";
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <div className="app__header">
+    <div className="app">
+      <header className="app__header">
         <Navbar />
         <Hero />
-        <div className="box"></div>
-      </div>
-      <div className="app__feature">
-        <Feature />
-      </div>
-      <div className="app__reports">
-        <Reports />
-      </div>
-      <div className="app__cust">
-        <Customize />
-      </div>
-      <div className="app__dash">
-        <Dashboard />
-      </div>
-      <div className="app__pricing">
-        <div className="box"></div>
-        <Pricing />
-      </div>
-      <footer className="app__footer">
-      <Footer />
+      </header>
+      <main className="app__main">
+        <section className="app__main__feature section" id="products">
+          <Feature />
+        </section>
+        <section className="app__main__reports section" id="services">
+          <Reports />
+        </section>
+        <section className="app__main__cust section">
+          <Customize />
+        </section>
+        <section className="app__main__dash section">
+          <Dashboard />
+        </section>
+        <section className="app__main__pricing section" id="pricing">
+          <div className="box"></div>
+          <Pricing />
+        </section>
+      </main>
+      <footer className="app__footer" id="contact">
+        <Footer />
       </footer>
-  
     </div>
   );
-}
+};
 
 export default App;

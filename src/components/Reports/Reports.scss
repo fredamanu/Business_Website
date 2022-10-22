@@ -1,51 +1,21 @@
-.app__reports__container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  align-items: center;
-
-  .app__reports__txt__container {
-    width: 480px;
+.app__reports {
+  &__txt__container {
+    width: 600px;
     h4 {
-      font-family: poppins;
-      font-style: normal;
-      font-weight: 700;
       font-size: 40px;
       line-height: 47px;
-      color: #172755;
       margin: 0;
     }
     p {
-      width: 480px;
-      font-family: poppins;
-      font-style: normal;
-      font-weight: 400;
       font-size: 18px;
       line-height: 150%;
-      color: #8794ba;
     }
   }
-  .app__reports__img__container {
-    width: 600px;
-    height: 410px;
-    background-color: #fff;
-    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
-    border-radius: 30px;
-    position: relative;
-    img {
-      position: absolute;
-      width: 80%;
-      height: 80%;
-      left: 64px;
-      top: 51px;
-    }
-  }
+
   @media screen and (max-width: 1280px) {
-    .app__reports__txt__container{
-      width: 320px;
-      p{
+    .app__reports__txt__container {
+      width: 500px;
+      p {
         width: 100%;
       }
     }
@@ -89,7 +59,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .app__reports__container {
+  .app__reports {
     flex-direction: column;
     gap: 10px;
     .app__reports__txt__container {
@@ -109,8 +79,8 @@
       }
     }
     .app__reports__img__container {
-        width: 100%;
-      
+      width: 100%;
+
       img {
         width: 80%;
       }

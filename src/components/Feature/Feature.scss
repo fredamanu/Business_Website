@@ -1,44 +1,33 @@
 .app__service__summary {
-  width: 80%;
-  margin:0 auto;
+  margin: 0 auto;
   padding-top: 3rem;
-  z-index: 5;
   position: relative;
 
   &-top {
     text-align: center;
     position: relative;
-    margin-bottom: 4rem;
 
     h2 {
-      margin: 0;
-      font-family: poppins;
-      font-style: normal;
-      font-weight: 700;
+      margin-bottom: 3rem;
       font-size: 40px;
       line-height: 47px;
-      text-align: center;
-      color: #172755;
     }
 
     p {
-      font-family: poppins;
-      font-style: normal;
-      font-weight: 400;
+      width: 90%;
+      margin: 0 auto 3rem;
       font-size: 18px;
       line-height: 150%;
-      text-align: center;
-      color: #8794ba;
     }
     @media screen and (max-width: 900px) {
-      h2{
+      h2 {
         text-align: left;
         margin: 0 auto;
       }
       p {
         text-align: left;
         width: 100%;
-        margin: 1rem auto  0;
+        margin: 1rem auto 0;
         font-size: 14px;
       }
     }
@@ -46,9 +35,8 @@
 
   &-bottom {
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 6rem;
 
     .feature-card {
       width: 350px;
@@ -58,22 +46,12 @@
       gap: 40px;
       h6 {
         margin: 0;
-        font-family: poppins;
-        font-style: normal;
-        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        text-align: center;
-        color: #172755;
       }
       p {
-        font-family: poppins;
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 140%;
-        text-align: center;
-        color: #8794ba;
       }
     }
     @media screen and (max-width: 900px) {
@@ -84,30 +62,23 @@
         h6,
         p {
           text-align: left;
+        }
+        .feature-card:not(:last-child) {
+          margin-bottom: 2rem;
+        }
       }
-      .feature-card:not(:last-child) {
-        margin-bottom: 2rem;
+    }
+    @media screen and (max-width: 450px) {
+      .app__service__summary-top {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 140%;
+          text-align: left;
+        }
       }
     }
   }
-  @media screen and (max-width: 450px) {
-    .app__service__summary-top {
-      h2 {
-        font-size: 30px;
-      }
-      p {
-        font-size: 14px;
-        line-height: 140%;
-        text-align: left;
-      }
-    }
-  }
 }
-}
-
-@media screen and (max-width: 450px) {
-  .app__service__summary{
-    margin-top: -200px;
-  }
-}
-

@@ -1,38 +1,24 @@
-.app__pricing__container {
-  width: 80%;
+.app__pricing {
+  width: 90%;
   margin: 0 auto;
-  color: white;
   padding-bottom: 120px;
-//   height: 600px;
   h5 {
-    font-family: poppins;
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    color: #ffffff;
-    margin: 0;
+    margin: 0 0 3rem;
   }
   .app__pricing-txt {
-    font-family: poppins;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     text-align: center;
-    color: #8794ba;
-    width: 700px;
-    margin: 1rem auto;
+    width: 800px;
+    margin: 0 auto;
   }
   .pricing__cards__holder {
     margin-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 0px;
     gap: 80px;
-    
 
     .pricing__card {
       width: 340px;
@@ -48,25 +34,16 @@
         display: flex;
         flex-direction: column;
         h6 {
-          font-family: poppins;
-          font-style: normal;
-          font-weight: 700;
           font-size: 30px;
           line-height: 35px;
           text-align: center;
-          color: #ffffff;
           margin-bottom: 0;
         }
         p {
-          font-family: poppin;
-          font-style: normal;
-          font-weight: 400;
           font-size: 18px;
           line-height: 150%;
           text-align: center;
-          color: #8794ba;
-          margin-bottom: 0;
-          margin-top: 1rem;
+          margin: 1rem 0 0;
         }
       }
       .divider {
@@ -95,33 +72,24 @@
         }
         .bottom {
           margin-top: 1rem;
-          font-family: poppins;
-          font-style: normal;
-          font-weight: 400;
           font-size: 16px;
           line-height: 140%;
           text-align: center;
-          color: #8794ba;
         }
       }
       .order {
         box-sizing: border-box;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         padding: 10px 80px;
         gap: 10px;
-
         width: 200px;
         height: 50px;
-
         border: 1px solid #374c58;
         border-radius: 68px;
         margin: 0 auto;
+        color: ghostwhite;
+        font-family: "poppins", sans-serif;
       }
     }
-
 
     .pricing__card-standard {
       width: 340px;
@@ -134,43 +102,34 @@
 
       .pricing__card-txt {
         h6 {
-          color: #172755; 
+          color: #172755;
         }
         p {
-          color: #8794BA;
+          color: #8794ba;
         }
       }
       .divider {
-        border-bottom: 1px solid #D3D9E9;;
-       
+        border-bottom: 1px solid #d3d9e9;
       }
 
       .pricing__card-price {
-
-        .top{
+        .top {
           color: #172755;
           margin-bottom: 0;
-          
         }
       }
       .order {
         background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-        
       }
-
-
     }
   }
   @media screen and (max-width: 1200px) {
-    .app__pricing-txt{
-width: 100%;
+    .app__pricing-txt {
+      width: 100%;
     }
-    .pricing__cards__holder{
-        flex-direction: column;
-        align-items: center;
-        
+    .pricing__cards__holder {
+      flex-direction: column;
+      align-items: center;
     }
   }
 }
-
-

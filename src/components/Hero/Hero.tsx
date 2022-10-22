@@ -6,7 +6,7 @@ import { relynk, hero } from "../../assets";
 import "./Hero.scss";
 const Hero = () => {
   return (
-    <div className="app__hero">
+    <div className="app__hero container flex">
       <motion.div
         className="app__hero-left"
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -35,7 +35,7 @@ const Hero = () => {
       </motion.div>
       <motion.div
         className="app__hero-right"
-        whileInView={{ opacity: [0, 1], x:[100, 0] }}
+        whileInView={{ opacity: [0, 1], x: [100, 0] }}
         transition={{ duration: 1, delayChildren: 1 }}
       >
         <img src={hero} />

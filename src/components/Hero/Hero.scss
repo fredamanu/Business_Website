@@ -3,13 +3,15 @@
   position: relative;
 
   &-left {
-    color: #fff;
+    color: ghostwhite;
+    text-align: left;
     h1 {
       margin: 0;
       font-family: poppins;
       font-size: 50px;
       line-height: 1.5;
       letter-spacing: 2px;
+      text-align: left;
 
       span {
         background: #72afd3;
@@ -24,14 +26,18 @@
       }
     }
     p {
-      font-family: poppins;
+      font-family: "poppins", sans-serif;
+      line-height: 150%;
       font-size: 16px;
       max-width: 570px;
+      text-align: left;
+      color: #8794ba;
     }
 
     button {
       color: #fff;
       margin-top: 2rem;
+      margin-left: 0;
       border: none;
       border-radius: 10px;
       padding: 1rem 2rem;
@@ -43,8 +49,8 @@
   }
 
   &-right {
-    width: 450px;
-    height: 410px;
+    width: 600px;
+    height: 600px;
     position: relative;
     display: flex;
 
@@ -62,27 +68,38 @@
   .app__hero {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 100px;
   }
 
   .app__hero-left {
+    width: 100%;
     margin-bottom: 4rem;
-    text-align: center;
+    text-align: left;
   }
 
   .app__hero-right {
-    width: 410px;
-    height: 390px;
+    width: 700px;
+    height: 700px;
     margin-bottom: 4rem;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .app__hero-left h1 {
-    font-size: 39px;
+  .app__hero-left {
+    text-align: left;
+    width: 100%;
+    h1 {
+      font-size: 39px;
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
+    button {
+      margin-right: 0;
+    }
   }
+
   .app__hero-right {
-    width: 310px;
-    height: 290px;
+    display: none;
   }
 }

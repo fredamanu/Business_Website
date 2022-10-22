@@ -74,3 +74,9 @@ a {
   text-decoration: none;
   font-family: "poppins", sans-serif;
 }
+
+@media screen and (max-width: 450px) {
+  .app__main__feature {
+    margin-top: -10px;
+  }
+}

@@ -11,7 +11,7 @@ const Pricing = () => {
       whileInView={{ y: [100, 50, 0], opacity: [0, 1] }}
       transition={{ duration: 1 }}
     >
-      <h5 className="headings">Pricing Plan</h5>
+      <h5 className="headings">Pricing Plans</h5>
       <p className="app__pricing-txt text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
         aliquet volutpat pellentesque volutpat est.{" "}

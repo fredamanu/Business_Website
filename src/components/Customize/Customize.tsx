@@ -17,13 +17,14 @@ const Customize = () => {
       </div>
       <div className="app__cust__txt__container">
         <h4 className="headings">
-          Fully customizable to address your needs <br /> & Widget Alerts
+          How is Relynk Real Esate API different from other software?
         </h4>
         <p className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
           nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
           nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
-          pulvinar sit amet.
+          pulvinar sit amet.Sapien in etiam vitae nibh nunc mattis imperdiet sed
+          nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
         </p>
       </div>
     </motion.div>

@@ -12,12 +12,15 @@ const DashBoard = () => {
       transition={{ duration: 1 }}
     >
       <div className="app__dash__txt__container">
-        <h4 className="headings">Pre-built Dashboard Templates</h4>
+        <h4 className="headings">
+          Seamless real estate data integration designed for non-coders.
+        </h4>
         <p className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
           nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
           nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
-          pulvinar sit amet.
+          pulvinar sit amet.Sapien in etiam vitae nibh nunc mattis imperdiet sed
+          nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
         </p>
       </div>
       <div className="app__dash__img__container img__container">

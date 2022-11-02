@@ -11,6 +11,12 @@ import calendar from "./calendar.svg";
 import twitter from "./twitter.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
+import startup from "./StartupLab.webp";
+import innovasion from "./Innovasion.webp";
+import antler from "./antler.webp";
+import mail from "./mail.svg";
+import telephone from "./telephone.svg";
+import linkedIn from "./linkedIn.svg";
 
 export {
   logo,
@@ -26,4 +32,10 @@ export {
   facebook,
   twitter,
   instagram,
+  startup,
+  innovasion,
+  antler,
+  mail,
+  telephone,
+  linkedIn,
 };

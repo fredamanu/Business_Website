@@ -1,10 +1,12 @@
 .app__hero {
-  margin: 50px auto 0;
+  margin: 0px auto 0;
   position: relative;
 
   &-left {
     color: ghostwhite;
     text-align: left;
+    padding-left: 5%;
+
     h1 {
       margin: 0;
       font-family: poppins;
@@ -12,26 +14,15 @@
       line-height: 1.5;
       letter-spacing: 2px;
       text-align: left;
-
-      span {
-        background: #72afd3;
-        background: linear-gradient(
-          to top,
-          #72afd3 0%,
-          #37ecba 50%,
-          #72afd3 100%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+      color: white;
     }
     p {
       font-family: "poppins", sans-serif;
       line-height: 150%;
       font-size: 16px;
-      max-width: 570px;
+      max-width: 500px;
       text-align: left;
-      color: #8794ba;
+      color: white;
     }
 
     button {
@@ -42,13 +33,14 @@
       border-radius: 10px;
       padding: 1rem 2rem;
       font-size: 18px;
-      background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+      background: linear-gradient(to top, #2db6d4 0%, #b1e8fe 100%);
       transition: all 0.3s ease-in-out;
       cursor: pointer;
     }
   }
 
   &-right {
+    padding-right: 1%;
     width: 600px;
     height: 600px;
     position: relative;
@@ -60,11 +52,12 @@
       object-fit: cover;
       position: relative;
       z-index: 2;
+      border-radius: 50%;
     }
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .app__hero {
     display: flex;
     flex-direction: column-reverse;
@@ -72,13 +65,14 @@
 
   .app__hero-left {
     width: 100%;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
     text-align: left;
   }
 
   .app__hero-right {
-    width: 700px;
-    height: 700px;
+    width: 450px;
+    height: 450px;
+    // height: 700px;
     margin-bottom: 4rem;
   }
 }
@@ -86,7 +80,9 @@
 @media screen and (max-width: 450px) {
   .app__hero-left {
     text-align: left;
-    width: 100%;
+    width: 90%;
+    padding-top: 50px;
+
     h1 {
       font-size: 39px;
       text-align: left;
@@ -100,6 +96,8 @@
   }
 
   .app__hero-right {
-    display: none;
+    width: 300px;
+    height: 300px;
+    // display: none;
   }
 }

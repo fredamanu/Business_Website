@@ -13,14 +13,14 @@ const Reports = () => {
     >
       <div className="app__reports__txt__container">
         <h4 className="headings">
-          Automated Reports
-          <br /> & Widget Alerts
+          How does Relynk Real Estate API help your real estate business?
         </h4>
         <p className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
           nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
           nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
-          pulvinar sit amet.
+          pulvinar sit amet.Sapien in etiam vitae nibh nunc mattis imperdiet sed
+          nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
         </p>
       </div>
       <div className="app__reports__img__container img__container">

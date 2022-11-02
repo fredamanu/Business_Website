@@ -1,0 +1,44 @@
+.app__partners {
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 6rem;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+.logo__holder {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  img {
+    width: 320px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app__partners {
+    text-align: left;
+  }
+
+  .logo__holder {
+    text-align: left;
+
+    img {
+      width: 220px;
+      height: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo__holder {
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 20px;
+  }
+}
